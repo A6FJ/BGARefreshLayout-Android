@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
-import android.view.ViewGroup;
 
 import java.util.List;
 
@@ -41,7 +40,7 @@ public class StaggeredRecyclerViewFragment extends BaseFragment implements BGARe
     protected void setListener() {
         mRefreshLayout.setDelegate(this);
 
-        mAdapter = new StaggeredRecyclerViewAdapter(mDataRv);
+        mAdapter = new StaggeredRecyclerViewAdapter(mApp);
         mAdapter.setOnRVItemClickListener(this);
         mAdapter.setOnRVItemLongClickListener(this);
     }
@@ -120,12 +119,12 @@ public class StaggeredRecyclerViewFragment extends BaseFragment implements BGARe
     }
 
     @Override
-    public void onRVItemClick(ViewGroup parent, View itemView, int position) {
+    public void onRVItemClick(View v, int position) {
         showToast("点击了条目 " + mAdapter.getItem(position).desc);
     }
 
     @Override
-    public boolean onRVItemLongClick(ViewGroup parent, View itemView, int position) {
+    public boolean onRVItemLongClick(View v, int position) {
         showToast("长按了条目 " + mAdapter.getItem(position).desc);
         return true;
     }

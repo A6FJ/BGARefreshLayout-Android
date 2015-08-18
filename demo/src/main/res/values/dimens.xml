@@ -9,4 +9,11 @@
     <dimen name="large">15dp</dimen>
     <dimen name="large_large">20dp</dimen>
 
+
+
+    <!-- open duration time -->
+    <integer name="loading_duration">40</integer>
+    <integer name="loading_duration_dialog">200</integer>
+    <integer name="sys_open_duration">300</integer>
+    <integer name="main_bottom_duration">200</integer>
 </resources>

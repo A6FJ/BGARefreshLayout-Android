@@ -33,6 +33,11 @@ public class DataEngine {
     private static AsyncHttpClient sAsyncHttpClient = new AsyncHttpClient();
 
     public static void loadInitDatas(final RefreshModelResponseHandler responseHandler) {
+
+//        RequestExecutor.with(getActivity()).module("fishings/show")
+//                .params(params).requestMthod(RequestMthod.GET)
+//                .listener(this).asJsonObject().execute();
+//
         sAsyncHttpClient.get("http://7xk9dj.com1.z0.glb.clouddn.com/refreshlayout/api/defaultdata.json", new TextHttpResponseHandler() {
             @Override
             public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
