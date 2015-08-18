@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by wangde on 15-7-15 下午4:39
+  ~ Copyright 2015 www.mahua.com
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License"); you may not
+  ~ use this file except in compliance with the License.  You may obtain a copy
+  ~ of the License at
+  ~
+  ~ http:www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+  ~ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+  ~ License for the specific language governing permissions and limitations under
+  ~ the License.
+  -->
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@mipmap/icon_loading_fish_30" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_31" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_32" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_33" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_34" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_35" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_36" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_37" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_38" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_39" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_40" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_41" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_42" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_43" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_44" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_45" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_46" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_47" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_48" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_49" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_50" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_51" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_52" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_53" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_54" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_55" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_56" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_57" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_58" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_59" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_60" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_1" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_2" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_3" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_4" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_5" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_6" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_7" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_8" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_9" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_10" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_11" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_12" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_13" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_14" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_15" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_16" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_17" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_18" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_19" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_20" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_21" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_22" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_23" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_24" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_25" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_26" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_27" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_28" android:duration="@integer/loading_duration" />
+    <item android:drawable="@mipmap/icon_loading_fish_29" android:duration="@integer/loading_duration" />
+
+</animation-list>
+

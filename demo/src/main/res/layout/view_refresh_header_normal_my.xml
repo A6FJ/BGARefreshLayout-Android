@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <FrameLayout
+        android:id="@+id/iv_frame_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/iv_normal_refresh_header_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/icon_pull_down_1"/>
+
+        <ImageView
+            android:id="@+id/iv_normal_refresh_header_chrysanthemum"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/pull_down_loading_anim"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_normal_refresh_header_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_frame_layout"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:text="下拉刷新"
+        android:textColor="#777"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/line_textview"
+        android:layout_width="1.5dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="-3dp"
+        android:background="#d3d3d3"
+        android:layout_toRightOf="@+id/iv_frame_layout"/>
+</RelativeLayout>
